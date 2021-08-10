@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.sql.*;
  
-public class MySQLConnectExample {
+public class datadb{
     public static void main(String[] args) {
  
         // creates three different Connection objects
