@@ -1,14 +1,15 @@
-import java.sql.Connection;
+/*import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
-import java.sql.*;
+import java.sql.*;*/
  
 public class datadb{
     public static void main(String[] args) {
- 
+
+        System.out.println("hello");
         // creates three different Connection objects
-        Connection conn1 = null;
+       /* Connection conn1 = null;
         Connection conn2 = null;
         Connection conn3 = null;
         PreparedStatement ps=null;
@@ -36,6 +37,6 @@ public class datadb{
   } catch (SQLException ex) {
             System.out.println("An error occurred. Maybe user/password is invalid");
             ex.printStackTrace();
-        }
+        }*/
     }
 }
